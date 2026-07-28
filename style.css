@@ -282,6 +282,61 @@ Statistics
     text-align:center;
 
 }
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:18px 8%;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.nav-actions{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.social-icons{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.social-icons a{
+    color:#333;
+    font-size:22px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    transform:scale(1.2);
+}
+
+.social-icons .fa-facebook-f{
+    color:#1877F2;
+}
+
+.social-icons .fa-instagram{
+    color:#E1306C;
+}
+
+.social-icons .fa-whatsapp{
+    color:#25D366;
+}
 
 .stat h2{
 
